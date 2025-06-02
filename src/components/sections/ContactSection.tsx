@@ -34,23 +34,29 @@ const ContactSection: React.FC = () => {
     {
       icon: <MapPin size={20} />,
       title: "Address",
-      content: "Wiesenhüttenplatz 25, 60329 Frankfurt am Main, Germany"
+      content: "August-Ruf-Straße 16, 78224 Singen (Hohentwiel)"
     },
     {
       icon: <Phone size={20} />,
       title: "Phone",
-      content: "+49 (0) 69 123 456 78"
+      content: "+49 179 423 2002"
     },
     {
       icon: <Mail size={20} />,
       title: "Email",
-      content: "info@madraspalace.de"
+      content: "info@bay-leaf.eu"
     },
     {
       icon: <Clock size={20} />,
       title: "Opening Hours",
-      content: "Mon-Fri: 12:00 - 22:00\nSat-Sun: 12:00 - 23:00"
+      content: (
+        <>
+          Tue-Sun: 11:30 AM – 2:30 PM / 5:30 PM - 10:00 PM<br />
+          Closed on Mondays
+        </>
+      )
     }
+    
   ];
 
   return (
@@ -228,7 +234,7 @@ const ContactSection: React.FC = () => {
               <h4 className="font-medium text-gray-900 mb-4">Find Us</h4>
               <div className="h-[200px] rounded-lg overflow-hidden">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2558.904658201547!2d8.663693376927796!3d50.10645487153371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd0ea2c90708a9%3A0x79a6db59f4a51632!2sWiesenh%C3%BCttenpl.%2025%2C%2060329%20Frankfurt%20am%20Main%2C%20Germany!5e0!3m2!1sen!2sus!4v1696456454015!5m2!1sen!2sus" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2682.023456696236!2d8.836444776165843!3d47.76159937120448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479a7d35eeee6f1f%3A0xe5111ed81e27db8c!2sBay%20Leaf!5e0!3m2!1sen!2sin!4v1748797783448!5m2!1sen!2sin"
                   width="100%" 
                   height="100%" 
                   style={{ border: 0 }} 

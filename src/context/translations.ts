@@ -237,20 +237,83 @@ export const translations = {
       en: "We'd love to hear from you! Make a reservation or send us your questions.",
       de: 'Wir freuen uns von Ihnen zu hören! Machen Sie eine Reservierung oder senden Sie uns Ihre Fragen.'
     },
+    bookTable: {
+      en: 'Book a Table',
+      de: 'Tisch Reservieren'
+    },
+    getInTouch: {
+      en: 'Get in Touch',
+      de: 'Kontakt aufnehmen'
+    },
+    findUs: {
+      en: 'Find Us',
+      de: 'Finden Sie uns'
+    },
+    followUs: {
+      en: 'Follow Us',
+      de: 'Folgen Sie uns'
+    },
     form: {
-      name: { en: 'Name', de: 'Name' },
-      email: { en: 'Email', de: 'E-Mail' },
+      name: { 
+        en: 'Name', 
+        de: 'Name',
+        placeholder: { en: 'Your name', de: 'Ihr Name' }
+      },
+      email: { 
+        en: 'Email', 
+        de: 'E-Mail',
+        placeholder: { en: 'Your email', de: 'Ihre E-Mail' }
+      },
       date: { en: 'Date', de: 'Datum' },
-      time: { en: 'Time', de: 'Uhrzeit' },
-      guests: { en: 'Number of Guests', de: 'Anzahl der Gäste' },
-      message: { en: 'Special Requests', de: 'Besondere Wünsche' },
+      time: { 
+        en: 'Time', 
+        de: 'Uhrzeit',
+        placeholder: { en: 'Select time', de: 'Zeit wählen' }
+      },
+      guests: { 
+        en: 'Number of Guests', 
+        de: 'Anzahl der Gäste',
+        options: {
+          person: { en: 'person', de: 'Person' },
+          people: { en: 'people', de: 'Personen' },
+          sixPlus: { en: '6+ people', de: '6+ Personen' }
+        }
+      },
+      message: { 
+        en: 'Special Requests', 
+        de: 'Besondere Wünsche',
+        placeholder: { en: 'Any special requests or dietary requirements?', de: 'Besondere Wünsche oder Ernährungsanforderungen?' }
+      },
       submit: { en: 'Book Now', de: 'Jetzt Buchen' }
     },
     info: {
-      address: { en: 'Address', de: 'Adresse' },
-      phone: { en: 'Phone', de: 'Telefon' },
-      email: { en: 'Email', de: 'E-Mail' },
-      hours: { en: 'Opening Hours', de: 'Öffnungszeiten' }
+      address: { 
+        en: 'Address', 
+        de: 'Adresse',
+        value: 'August-Ruf-Straße 16, 78224 Singen (Hohentwiel)'
+      },
+      phone: { 
+        en: 'Phone', 
+        de: 'Telefon',
+        value: '+49 179 423 2002'
+      },
+      email: { 
+        en: 'Email', 
+        de: 'E-Mail',
+        value: 'info@bay-leaf.eu'
+      },
+      hours: { 
+        en: 'Opening Hours', 
+        de: 'Öffnungszeiten',
+        schedule: {
+          en: 'Tue-Sun: 11:30 AM – 2:30 PM / 5:30 PM - 10:00 PM',
+          de: 'Di-So: 11:30 – 14:30 / 17:30 - 22:00'
+        },
+        closed: {
+          en: 'Closed on Mondays',
+          de: 'Montags geschlossen'
+        }
+      }
     }
   }
 };
